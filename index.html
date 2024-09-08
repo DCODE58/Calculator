@@ -28,8 +28,14 @@
             <button class="btn" onclick="appendToDisplay('.')">.</button>
             <button class="btn" onclick="appendToDisplay('0')">0</button>
             <button class="btn equal" onclick="calculateResult()">=</button>
-
-            
+        </div>
+        
+        <!-- History Section -->
+        <div id="history" class="history">
+            <h3>Calculation History</h3>
+            <ul id="historyList"></ul>
+            <!-- Add a new button to clear history -->
+            <button class="btn" onclick="clearHistory()">Clear History</button>
         </div>
     </div>
     <script src="script.js"></script>

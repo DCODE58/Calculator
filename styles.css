@@ -7,12 +7,14 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .calculator{
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .display{
     height: 3.5rem;
     font-size: 2em;
@@ -23,11 +25,13 @@ body{
     text-align: right;
     border-radius: 9px;
 }
+
 .buttons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
+
 .btn{
     padding: 20px;
     font-size: 1.5rem;
@@ -36,11 +40,34 @@ body{
     background-color: #f0f0f0;
     cursor: pointer;
 }
+
 .btn:hover{
     background-color: #c2c2c2;
 }
+
 .equal{
     grid-column: span 4;
     background-color: #4caf50;
     color: #fff;
+}
+
+/* New styles for history */
+.history{
+    margin-top: 20px;
+}
+
+.history h3{
+    font-size: 1.2rem;
+}
+
+.history ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.history ul li{
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
 }
